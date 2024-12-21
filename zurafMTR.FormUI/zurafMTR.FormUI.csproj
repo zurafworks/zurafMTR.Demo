@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Krypton.Docking" Version="5.550.2108.1" />
+    <PackageReference Include="Krypton.Navigator" Version="5.550.2108.1" />
+    <PackageReference Include="Krypton.Ribbon" Version="5.550.2108.1" />
+    <PackageReference Include="Krypton.Toolkit" Version="5.550.2108.1" />
+    <PackageReference Include="Krypton.Workspace" Version="5.550.2108.1" />
+  </ItemGroup>
+
+</Project>
